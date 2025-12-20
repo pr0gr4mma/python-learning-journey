@@ -1,0 +1,1 @@
+print("Python Journey lab is set up.")
