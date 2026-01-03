@@ -1,3 +1,17 @@
+# There are three numeric types in Python
+# Int
+# Float
+# Complex
+
+a = 1 # int
+b = 3.4 # float
+c = 1j
+
+print(type(a))
+print(type(b))
+print(type(c))
+
+
 # Print Numbers
 # You can also use print() function to display numbers.
 # However, numbers are not put inside quotes.
