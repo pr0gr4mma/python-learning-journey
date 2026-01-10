@@ -60,3 +60,43 @@ l = -23e4
 print(type(j))
 print(type(k))
 print(type(l))
+
+# Complex numbers are written with a "j" as the imaginary part
+
+m = 3+5j
+n = 5j
+o = -5j
+
+print(type(m))
+print(type(n))
+print(type(o))
+
+# You can convert from one type to another using the int(), float() and, complex() methods
+
+x = 1    # int
+y = 2.8  # float
+z = 1j   # complex
+
+#convert from int to float:
+A = float(x)
+
+#convert from float to int:
+B = int(y)
+
+#convert from int to complex:
+C = complex(x)
+
+print(A)
+print(B)
+print(C)
+
+print(type(A))
+print(type(B))
+print(type(C))
+
+# You cannot convert complex numbers into another number type.You cannot convert complex numbers into another number type.
+
+# Random number
+# Python does not have a random() function to make a random number, but Python has a built-in module called random that can be used to make random numbers:
+import random
+print(random.randrange(1, 10))
